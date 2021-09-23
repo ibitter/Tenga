@@ -1,18 +1,10 @@
-# Ninja 优化代码，减少轮询次数
+# Tenga 优化代码，减少轮询次数
+
+## 别人py给我的，我只会用，不会改，别找我，别fork
 
 支持CK注册，登录和删除，支持WSKEY录入和删除，登录成功进入个人中心，可修改备注。默认登录CK才可提交WSCK，主页提交WSCK容易乱，不建议。
 
 基本功能已完善，鸽几天，有问题先仔细看此README。
-
-## 致谢
-
-感谢Ninja原作者：@MoonBegonia
-
-仓库地址：https://github.com/MoonBegonia/ninja
-
-感谢WSCK功能原作者：@huiyi9420
-
-仓库地址：https://github.com/huiyi9420/ninja
 
 ## 新
 
