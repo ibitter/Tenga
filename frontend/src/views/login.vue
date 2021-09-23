@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header">
         <div class="flex items-center justify-between">
-          <p class="card-title">你妈死了</p>
+          <p class="card-title">来自某不知名菜鸡</p>
         </div>
       </div>
       <div class="card-body text-base leading-6">
@@ -188,7 +188,7 @@ export default {
           if (data.QQQRCode ) {
             // data.qrCodeVisibility = true
             data.waitLogin = true
-            data.QQtimer = setInterval(QQckeckLogin, 8000) // 设置定时器
+            data.QQtimer = setInterval(QQckeckLogin, 1000) // 设置定时器
           }
         } catch (e) {
           console.error(e)
