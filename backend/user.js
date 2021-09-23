@@ -36,10 +36,8 @@ module.exports = class User {
   token;
   okl_token;
   cookies;
-  lSid;// 新增变量
   sig;// 新增变量
   redirectUrl;// 新增变量
-  state;// 新增变量
   tempCookie;// 新增变量
   QQQRCode;// 新增变量
   QRCode;
@@ -54,10 +52,8 @@ module.exports = class User {
     this.pt_pin = pt_pin;
     this.cookie = cookie;
     this.eid = eid;
-    this.lSid = lSid;
     this.sig = sig;
     this.redirectUrl = redirectUrl;
-    this.state = state;
     this.tempCookie = tempCookie;
     this.wseid = wseid;
     this.remark = remark;
@@ -133,7 +129,7 @@ module.exports = class User {
     const QQresponse = await api({
       method: 'POST',
       url: getQQCookieUrl,
-      // body: `sig=${this.sig}&type=1&redirectUrl=${this.redirectUrl}&state=${this.state}&tempCookie=${this.tempCookie}&lSid=${this.lSid}`,
+      body: `sig=${this.sig}&type=1&redirectUrl=${this.redirectUrl}&state=${this.state}&lSid=${this.lSid}`,
       body: form,
       headers: {},
     }).json();
