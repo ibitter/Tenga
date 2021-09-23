@@ -8,7 +8,7 @@
 
 ## 新
 
-当前：增加备用接口（针对某些半黑号）
+当前：删除所有测试的错误代码，此版本为最终版，不再维护。
 
 新特性：支持Github Action前端编译并自动替换文件。Fork之后：Action->BuildAndCommit->Run workflow->Run workflow即可。
 
