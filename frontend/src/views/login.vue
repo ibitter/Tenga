@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header">
         <div class="flex items-center justify-between">
-          <p class="card-title">来自某不知名菜鸡</p>
+          <p class="card-title">云挂机提醒您</p>
         </div>
       </div>
       <div class="card-body text-base leading-6">
@@ -153,7 +153,7 @@ export default {
       lSid: undefined,
       marginWSCKCount: 0,
       allowWSCKAdd: true,
-      jdwsck: undefined,
+      jdwsck: '',
       showQQQR:true,
       showQR:false,
       showWSCK:false,
